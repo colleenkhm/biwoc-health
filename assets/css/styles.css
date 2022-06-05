@@ -54,9 +54,10 @@ a:hover {
     max-width: 250px;
     max-height: 150px;
     display: block;
-    text-align: center;
+    vertical-align: center;
     object-fit: contain;
 }
-.hero {
 
-}
+/* .hero {
+
+} */
