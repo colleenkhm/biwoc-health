@@ -1,3 +1,11 @@
+:root {
+    --white: white;
+    --muted-red: rgb(200, 98, 119);
+    --light-purple: rgb(213, 194, 243);
+    --grayish-purple: #8e74ab;
+    --coffee-brown: #9F8170;
+    --dark-brown: #593c2c;
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,16 +13,16 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #9F8170;
+    background-color: var(--light-purple);
     margin: 0 auto;
 }
 
 header {
     padding: 0;
     /* background-color: #4B3621; */
-    background-color: white;
-    color: lightskyblue;
+    background-color: var(--white);
     width: 100%;
+    vertical-align: middle;
 }  
 
 header nav {
@@ -37,13 +45,12 @@ header ul li a {
     margin: 0;
     font-weight: bold;
     font-size: 20px;
-    background-color: #8e74ab;
-    color: #593c2c;
+    color: var(--dark-brown);
 }
 
 a:hover {
     text-decoration: none;
-    color: #9F8170;
+    color: var(--coffee-brown);
 }
 
 .flex-container {
@@ -54,8 +61,8 @@ a:hover {
     max-width: 250px;
     max-height: 150px;
     display: block;
-    vertical-align: center;
     object-fit: contain;
+    margin-top: 7px;
 }
 
 /* .hero {
