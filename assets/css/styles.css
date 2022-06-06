@@ -23,6 +23,10 @@ header {
     background-color: var(--white);
     width: 100%;
     vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    position: -webkit-sticky;
+
 }  
 
 header nav {
@@ -31,7 +35,10 @@ header nav {
     align-items: center;
 }
 
-header ul {
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     list-style: none;
 }
 
