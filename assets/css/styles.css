@@ -21,8 +21,7 @@ body {
 
 header {
     padding: 0;
-    /* background-color: #4B3621; */
-    background-color: var(--white);
+    background-color: white;
     width: 100%;
     vertical-align: middle;
     display: flex;
@@ -65,6 +64,7 @@ a:hover {
 i {
     color: var(--white);
 }
+
 .flex-container {
     display: inline-flex;
 }
@@ -92,15 +92,7 @@ i {
     align-items: center;
 }
 
-.option-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    list-style: none;
-    text-align: center;
-}
-
-.option {
+.card {
     background-color: var(--grayish-purple);
     color: var(--white);
     box-shadow: 2px 2px var(--medium-brown);
@@ -113,6 +105,14 @@ i {
     vertical-align: middle;
 }
 
+.option-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
+
 .our-background {
     width: 100%;
     margin: 0 auto;
@@ -123,11 +123,20 @@ i {
     color: var(--white);
 }
 
+.our-background h2 {
+    background-color: var(--white);
+    color: var(--dark-brown);
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 40px 20px 20px 20px;
+}
+
 .bio-container {
     margin: 20px;
     background-color: var(--white);
     color: var(--grayish-purple);
     flex: 1;
+    border-radius: 4px;
 }
 
 .bio-container img {
@@ -155,6 +164,7 @@ i {
     padding: 0;
     background-color: var(--white);
     vertical-align: middle;
+    background-color: var(--grayish-purple);
 }
 
 .socials-container h3 {
