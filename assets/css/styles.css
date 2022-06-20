@@ -62,6 +62,9 @@ a:hover {
     color: var(--coffee-brown);
 }
 
+i {
+    color: var(--white);
+}
 .flex-container {
     display: inline-flex;
 }
@@ -80,9 +83,10 @@ a:hover {
     vertical-align: middle;
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid var(--medium-brown);
 }
 
-.options {
+.option-container {
     margin: 50px;
     width: 100%;
     align-items: center;
@@ -93,20 +97,20 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
+    text-align: center;
 }
 
 .option {
     background-color: var(--grayish-purple);
     color: var(--white);
-    box-shadow: 1px 1px gray;
+    box-shadow: 2px 2px var(--medium-brown);
     font-size: 25px;
     padding: 20px;
     margin: 10px 20px;
-    border-radius: 4px;
-}
-
-.option-row .option-row-2 {
-    text-align: center;
+    border-radius: 6px;
+    min-width: 300px;
+    min-height: 400px;
+    vertical-align: middle;
 }
 
 .our-background {
