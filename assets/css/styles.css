@@ -109,7 +109,7 @@ i {
     margin: 10px 20px;
     border-radius: 6px;
     min-width: 300px;
-    min-height: 400px;
+    min-height: 300px;
     vertical-align: middle;
 }
 
@@ -119,13 +119,14 @@ i {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: var(--white);
+    background-color: var(--dark-brown);
+    color: var(--white);
 }
 
 .bio-container {
     margin: 20px;
-    background-color: var(--dark-brown);
-    color: var(--light-purple);
+    background-color: var(--white);
+    color: var(--grayish-purple);
     flex: 1;
 }
 
@@ -148,4 +149,41 @@ i {
 
 .bio p {
     font-size: 17px;
+}
+
+.socials-container {
+    padding: 0;
+    background-color: var(--white);
+    vertical-align: middle;
+}
+
+.socials-container h3 {
+    padding: 20px;
+    text-align: center;
+}
+
+.socials-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.socials-container ul li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.socials-container ul li a {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--medium-brown);
+}
+
+.socials-container ul li a:hover {
+    text-decoration: none;
+    color: var(--coffee-brown);
 }
