@@ -1,11 +1,11 @@
 :root {
     --white: white;
     --muted-blue: rgb(54, 54, 94);
-    --light-purple: rgb(213, 194, 243);
-    --grayish-purple: #8e74ab;
+    --light-purple: rgb(236, 229, 254);
+    --grayish-purple: #9884a1;
     --coffee-brown: #9F8170;
     --medium-brown: #593c2c;
-    --dark-brown: #231711;
+    --dark-brown: #ccc3bf;
 }
 
 * {
@@ -15,8 +15,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--light-purple);
-    margin: 0 auto;
 }
 
 header {
@@ -27,7 +25,6 @@ header {
     display: flex;
     justify-content: space-between;
     position: -webkit-sticky;
-    border-bottom: 2px solid var(--medium-brown);
 }  
 
 header nav {
@@ -83,7 +80,6 @@ i {
     vertical-align: middle;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid var(--medium-brown);
 }
 
 .option-container {
@@ -93,13 +89,13 @@ i {
 }
 
 .card {
-    background-color: var(--grayish-purple);
-    color: var(--white);
-    box-shadow: 2px 2px var(--medium-brown);
+    background-color: var(--white);
+    /* box-shadow: 2px 2px #6d5976; */
     font-size: 25px;
     padding: 20px;
     margin: 10px 20px;
     border-radius: 6px;
+    border: none;
     min-width: 300px;
     min-height: 300px;
     vertical-align: middle;
@@ -111,6 +107,12 @@ i {
     justify-content: space-around;
     list-style: none;
     text-align: center;
+    color: var(--medium-brown);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .our-background {
@@ -121,14 +123,17 @@ i {
     justify-content: space-around;
     background-color: var(--dark-brown);
     color: var(--white);
+    text-align: left;
 }
 
 .our-background h2 {
-    background-color: var(--white);
-    color: var(--dark-brown);
-    border-radius: 2px;
+    font-weight: bold;
+    color: var(--white);
     padding: 10px;
     margin-top: 40px 20px 20px 20px;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 8px solid white;
 }
 
 .bio-container {
@@ -190,10 +195,32 @@ i {
     margin: 0;
     font-weight: bold;
     font-size: 20px;
-    color: var(--medium-brown);
+    color: var(--white);
 }
 
 .socials-container ul li a:hover {
     text-decoration: none;
-    color: var(--coffee-brown);
+    color: gray;
+}
+
+/* #donation-option {
+    border-radius: 2px;
+    border: 3px solid #7f2d82
+}
+
+#story-option {
+    border: 3px solid #ac1637
+}
+
+#resource-option {
+    border: 3px solid #364998
+} */
+
+#social-header {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    border-bottom: 7px solid white;
+    width: 30%;
+    text-align: center;
 }
