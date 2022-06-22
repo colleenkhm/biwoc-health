@@ -88,7 +88,7 @@ footer {
 }
 
 .option-container {
-    margin: 50px;
+    margin: 70px;
     width: 100%;
     align-items: center;
 }
@@ -131,25 +131,32 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: var(--grayish-purple);
+    background-color: var(--light-purple);
     color: var(--white);
     text-align: left;
 }
 
-.our-background h2 {
-    /* font-weight: bold; */
-    color: var(--white);
-    padding: 10px;
-    margin-top: 40px 20px 20px 20px;
-    width: 100%;
+.background-section-title {
+    margin: 20px 0 30px 0;
+    text-align: center;
     font-size: 20px;
-    border-bottom: 8px solid var(--white);
+}
+
+.section-title {
+    /* font-weight: bold; */
+    background-color: var(--white);
+    color: var(--grayish-purple);
+    margin: 20px 0;
+    font-size: 20px;
+    border-bottom: 6px solid var(--grayish-purple);
+    display: inline;
+    padding: 0 0 5px 0;
 }
 
 .bio-container {
-    margin: 20px;
-    background-color: var(--white);
-    color: var(--grayish-purple);
+    margin: 70px;
+    background-color: var(--taupe);
+    color: var(--medium-brown);
     flex: 1;
     border-radius: 4px;
 }
