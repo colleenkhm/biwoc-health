@@ -81,10 +81,11 @@ footer {
 
 .hero {
     background-color: var(--taupe);
-    width: 100%;
+    width: 90%;
     vertical-align: middle;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .option-container {
@@ -126,13 +127,12 @@ footer {
 }
 
 .our-background {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: var(--light-purple);
-    color: var(--white);
     text-align: left;
 }
 
@@ -155,8 +155,8 @@ footer {
 
 .bio-container {
     margin: 70px;
-    background-color: var(--taupe);
-    color: var(--medium-brown);
+    background-color: var(--grayish-purple);
+    color: var(--taupe);
     flex: 1;
     border-radius: 4px;
 }
@@ -183,14 +183,15 @@ footer {
 }
 
 .find-us {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: var(--grayish-purple);
-    color: var(--white);
+    justify-content: space-between;
+    background-color: var(--light-purple);
+    color: var(--grayish-purple);
     text-align: center;
+    align-items: center;
 }
 
 .socials-container {
@@ -201,6 +202,7 @@ footer {
 .socials-container h3 {
     padding: 20px;
     font-size: 18px;
+    display: center;
 }
 
 .socials-list {
@@ -209,6 +211,9 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+}
+
+.socials-container ul {
 }
 
 .socials-container ul li {
@@ -221,12 +226,13 @@ footer {
     margin: 0;
     font-weight: bold;
     font-size: 20px;
-    color: var(--white);
+    color: var(--grayish-purple);
+    background-color: var(--taupe);
 }
 
 .socials-container ul li a:hover {
     text-decoration: none;
-    color: gray;
+    color: var(--light-purple);
 }
 
 #donation-option {
