@@ -1,6 +1,5 @@
 :root {
     --white: white;
-    --muted-blue: rgb(54, 54, 94);
     --light-purple: rgb(238, 233, 249);
     --grayish-purple: #a892b3;
     --coffee-brown: #9F8170;
@@ -81,7 +80,7 @@ footer {
 
 .hero {
     background-color: var(--taupe);
-    width: 90%;
+    width: 100%;
     vertical-align: middle;
     display: flex;
     justify-content: space-between;
@@ -107,6 +106,10 @@ footer {
     color: var(--white);
 }
 
+.card:hover {
+    background-color: rgb(239, 236, 246);
+}
+
 .option-row {
     display: flex;
     flex-wrap: wrap;
@@ -127,7 +130,7 @@ footer {
 }
 
 .our-background {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +145,7 @@ footer {
     font-size: 20px;
 }
 
-.section-title {
+.background-title {
     /* font-weight: bold; */
     background-color: var(--white);
     color: var(--grayish-purple);
@@ -156,7 +159,7 @@ footer {
 .bio-container {
     margin: 70px;
     background-color: var(--grayish-purple);
-    color: var(--taupe);
+    color: var(--white);
     flex: 1;
     border-radius: 4px;
 }
@@ -183,20 +186,32 @@ footer {
 }
 
 .find-us {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: var(--light-purple);
-    color: var(--grayish-purple);
+    background-color: var(--grayish);
+    color: var(--white);
     text-align: center;
     align-items: center;
+}
+
+.socials-title {
+    background-color: var(--white);
+    color: var(--medium-brown);
+    margin: 20px 0;
+    font-size: 20px;
+    border-bottom: 6px solid var(--medium-brown);
+    display: inline;
+    padding: 0 0 5px 0;
 }
 
 .socials-container {
     padding: 0;
     align-items: center;
+    width: 100%;
+    background-color: var(--taupe);
 }
 
 .socials-container h3 {
@@ -211,10 +226,11 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    padding: 10px 30px 0px 30px;
 }
 
-.socials-container ul {
-}
+/* .socials-container ul {
+} */
 
 .socials-container ul li {
     display: inline-flex;
@@ -226,8 +242,10 @@ footer {
     margin: 0;
     font-weight: bold;
     font-size: 20px;
-    color: var(--grayish-purple);
-    background-color: var(--taupe);
+    color: var(--white);
+    background-color: var(--medium-brown);
+    padding: 15px;
+    border-radius: 4px;
 }
 
 .socials-container ul li a:hover {
