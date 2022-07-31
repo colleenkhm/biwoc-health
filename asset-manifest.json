@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c9ec1a1.css",
+    "main.js": "/static/js/main.e3f0e059.js",
+    "static/js/787.f2cc6737.chunk.js": "/static/js/787.f2cc6737.chunk.js",
+    "static/media/biwoc-health-logo.jpg": "/static/media/biwoc-health-logo.80a1c289ececbfc2fb0c.jpg",
+    "index.html": "/index.html",
+    "main.7c9ec1a1.css.map": "/static/css/main.7c9ec1a1.css.map",
+    "main.e3f0e059.js.map": "/static/js/main.e3f0e059.js.map",
+    "787.f2cc6737.chunk.js.map": "/static/js/787.f2cc6737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c9ec1a1.css",
+    "static/js/main.e3f0e059.js"
+  ]
+}
