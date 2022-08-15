@@ -43,6 +43,7 @@ function Home() {
           </div>
         </div>
       </section>
+      
       <div className="background-section-title">
         <div className="background-title">OUR BACKGROUND</div>
       </div>

@@ -10,6 +10,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
@@ -86,6 +87,7 @@ footer {
 
 .announcement-container {
   text-align: center;
+  padding: 10px 0;
 }
 
 .announcement-banner a {
@@ -295,6 +297,12 @@ footer {
   padding-bottom: 30px;
   font-size: 25px;
 }
+
+/* .figure out which element to hover over:hover {
+  opacity: 50%;
+  text-decoration: none;
+  color: var(--taupe);
+} */
 
 #donation-option {
   background-color: var(--grayish-purple);
