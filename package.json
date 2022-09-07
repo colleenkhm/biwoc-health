@@ -1,7 +1,6 @@
 {
   "name": "biwoc-health",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://colleenkhm.github.io/biwoc-health/",
   "dependencies": {
     "bootstrap": "^5.2.0",

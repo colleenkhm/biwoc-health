@@ -40,7 +40,7 @@ function Contact() {
 
     return (
         <section id="contact">
-            <h2>Questions or suggestions? Let us know!</h2>
+            <h2 className="title" id="contact-title">Questions or suggestions? Let us know!</h2>
             <form id="contact-form">
                 <div>
                     <label htmlFor="name">Name</label>
