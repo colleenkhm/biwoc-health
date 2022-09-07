@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/biwoc-health/static/css/main.7c9ec1a1.css",
-    "main.js": "/biwoc-health/static/js/main.17e0649e.js",
+    "main.css": "/biwoc-health/static/css/main.d720c88c.css",
+    "main.js": "/biwoc-health/static/js/main.cf9af336.js",
     "static/js/787.f2cc6737.chunk.js": "/biwoc-health/static/js/787.f2cc6737.chunk.js",
     "static/media/biwoc-health-logo.jpg": "/biwoc-health/static/media/biwoc-health-logo.80a1c289ececbfc2fb0c.jpg",
     "index.html": "/biwoc-health/index.html",
-    "main.7c9ec1a1.css.map": "/biwoc-health/static/css/main.7c9ec1a1.css.map",
-    "main.17e0649e.js.map": "/biwoc-health/static/js/main.17e0649e.js.map",
+    "main.d720c88c.css.map": "/biwoc-health/static/css/main.d720c88c.css.map",
+    "main.cf9af336.js.map": "/biwoc-health/static/js/main.cf9af336.js.map",
     "787.f2cc6737.chunk.js.map": "/biwoc-health/static/js/787.f2cc6737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c9ec1a1.css",
-    "static/js/main.17e0649e.js"
+    "static/css/main.d720c88c.css",
+    "static/js/main.cf9af336.js"
   ]
 }
